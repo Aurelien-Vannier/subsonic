@@ -7,5 +7,6 @@ define(function() {
 		match('', 'accueil/accueil#show');
 		match('accueil', 'accueil/accueil#show');
 		match('settings', 'settings/settings#show');
+		match('music', 'music/music#show');
 	};
 });

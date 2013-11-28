@@ -25,7 +25,6 @@ define([
         self.$el.find('#nbArtistes').html( self.listArtists.total );
       });
 
-      //this.stickit();
     }
 
   });

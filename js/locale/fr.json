@@ -8,12 +8,15 @@
 		" ! MODAL ! " : "",
         "renseigner serveur": "Veuillez renseigner un serveur dans les paramètres de l'application.",
 
-		" ! MODAL ! " : "",
+		" ! LABEL ! " : "",
         "serveur": "Serveur",
         "utilisateur": "Utilisateur",
         "mot de passe": "Mot de passe",
         "status": "Status",
-        "tester connexion": "Tester la connexion"
+        "tester connexion": "Tester la connexion",
+
+        " ! TITLE ! " : "",
+        "categorie" : "Catégorie"
         
     }
 }

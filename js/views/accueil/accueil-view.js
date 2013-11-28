@@ -4,8 +4,7 @@ define([
   'text!templates/accueil/accueil.hbs',
   'views/accueil/tiles/accueil-user-tile-view',
   'views/accueil/tiles/accueil-info-serveur-tile-view',
-  'views/common/simple-modal-view',
-  "lib/utils"
+  'lib/utils'
 ], function(Chaplin, View, template, AccueilUserTileView, AccueilServerInfoTileView, SimpleModalView, Utils) {
   'use strict';
 

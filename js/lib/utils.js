@@ -60,8 +60,12 @@ define([
         return request;
       },
 
-      makeUrlRequest: function( ){
-
+      makeSimpleUrlRequest: function( options ){
+        return options.user.get('server') 
+          + '/rest/' + options.action + '.view' 
+          + '?u=' + options.user.get('login') 
+          + '&p=' + options.user.get('password') 
+          + '&v=1.9.0&f=jsonp&c=subsonicapp';
       }
   });
 
