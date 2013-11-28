@@ -1,0 +1,28 @@
+<h3>{{ locale "serveur" }}</h3>
+<div class="pure-form pure-form-aligned">
+    <fieldset>
+        <div class="pure-control-group">
+        	<label for="server">{{ locale "serveur" }} : </label>
+			<input type="text" id="server" name="server">
+		</div>
+		<div class="pure-control-group">
+			<label for="user">{{ locale "utilisateur" }} : </label>
+			<input type="text" id="user" name="user">
+		</div>
+		<div class="pure-control-group">
+			<label for="password">{{ locale "mot de passe" }} : </label>
+			<input type="password" id="password" name="password">
+		</div>
+		<div class="pure-control-group">
+			<label for="status">{{ locale "status" }} : </label>
+			{{#ifEquals status true}}
+				<i id="status" class="fa fa-check green"></i>
+			{{ else }}
+				<i id="status" class="fa fa-times red"></i>
+			{{/ifEquals}}
+		</div>
+		<div class="pure-controls">
+			<button id="test" class="pure-button">{{ locale "tester connexion" }}</button>
+		</div>
+	</fieldset>
+</div>

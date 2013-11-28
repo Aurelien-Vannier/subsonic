@@ -1,0 +1,20 @@
+#menu-view {
+	border-bottom: 1px solid #C9C9C9;
+}
+
+#menu-view i {
+	margin-right: 4px;
+}
+#menu-view a:hover i,#tabs-views-switcher li.active i {
+	visibility: visible;
+}
+
+.pure-menu li a:hover,
+.pure-menu li a:focus {
+    background: black;
+    color: white;
+}
+
+#menu-view .pure-menu-selected {
+	border-bottom: 10px solid black;
+}

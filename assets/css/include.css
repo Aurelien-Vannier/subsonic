@@ -1,0 +1,15 @@
+/* Jquery UI */
+@import url("./jqueryui/base/jquery-ui.css");
+
+/* Pure CSS */
+@import url("./pure/pure.css");
+
+/* font awesome */
+@import url("./font-awesome/css/font-awesome.css");
+
+/* loader */
+@import url("./loader/loader.css");
+
+/* applicatiton */
+@import url("./application/menu.css");
+@import url("./application/color.css");

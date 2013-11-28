@@ -1,0 +1,15 @@
+.loader-32p {
+	height: 32px;
+	width: 32px;
+	background: url('./images/loader-32p.gif') no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.loader-16p {
+	height: 16px;
+	width: 16px;
+	background: url('./images/loader-16p.gif') no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+}
