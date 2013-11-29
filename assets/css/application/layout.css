@@ -1,0 +1,19 @@
+.width-100p {
+	width: 100%;
+}
+
+.heigth-100p {
+	height: 100%;
+}
+
+html{
+  height: 100%;
+}
+body, #main-container,
+#application-container{
+  min-height: 100%;
+}
+
+#music-categorie{
+	border-right: 1px solid #C9C9C9;
+}

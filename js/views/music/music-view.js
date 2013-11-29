@@ -15,6 +15,8 @@ define([
 
     template: template,
 
+    className: 'pure-g-r',
+
     regions: {
       'music-categorie': "#music-categorie"
     },
