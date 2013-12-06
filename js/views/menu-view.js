@@ -2,10 +2,14 @@ define(['views/base/view', 'text!templates/menu.hbs'], function(View, template) 
   'use strict';
 
   var MenuView = View.extend({
+
     id: 'menu-view',
+
     region: 'menu',
-    className: 'pure-menu pure-menu-open pure-menu-horizontal',
+
     template: template,
+
+    className: 'pure-menu pure-menu-open pure-menu-horizontal pure-u-2-3',
 
     listen:{
     	'menu:activeItem mediator': 'activeItem',

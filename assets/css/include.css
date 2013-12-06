@@ -11,6 +11,9 @@
 @import url("./loader/loader.css");
 
 /* applicatiton */
-@import url("./application/menu.css");
-@import url("./application/color.css");
 @import url("./application/layout.css");
+@import url("./application/application.css");
+@import url("./application/menu.css");
+@import url("./application/player.css");
+@import url("./application/color.css");
+

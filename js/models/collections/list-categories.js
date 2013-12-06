@@ -15,6 +15,8 @@ define([
     },
 
     parse : function( response ){
+      response['subsonic-response'].musicFolders.musicFolder.unshift( {id: -1, name: Utils.locale.getTranslation('toutes categories') });
+      
       return response['subsonic-response'].musicFolders.musicFolder;
     }
 

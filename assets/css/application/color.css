@@ -5,3 +5,9 @@
 .red {
 	color: red;
 }
+
+h3.title-letter,
+.selected-item {
+	background-color: black;
+	color: white;
+}

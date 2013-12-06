@@ -14,9 +14,12 @@
         "mot de passe": "Mot de passe",
         "status": "Status",
         "tester connexion": "Tester la connexion",
+        "toutes categories": "Toutes les catégories",
 
         " ! TITLE ! " : "",
-        "categorie" : "Catégorie"
+        "categorie" : "Catégories",
+        "albums": "Albums",
+        "tracks": "Pistes"
         
     }
 }

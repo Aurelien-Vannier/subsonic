@@ -64,8 +64,29 @@ define([
         return options.user.get('server') 
           + '/rest/' + options.action + '.view' 
           + '?u=' + options.user.get('login') 
-          + '&p=' + options.user.get('password') 
+          + '&p=enc:' + this.asc2hex( options.user.get('password') )
           + '&v=1.9.0&f=jsonp&c=subsonicapp';
+      },
+
+      asc2hex: function(pStr) {
+        var tempstr = '';
+        for (var a = 0; a < pStr.length; a = a + 1) {
+            tempstr = tempstr + pStr.charCodeAt(a).toString(16);
+        }
+        return tempstr;
+      },
+
+      convertSecondsToMinutesAndSecondes: function( secondsValue ){
+        var minutes = Math.floor(secondsValue / 60);
+        var seconds = secondsValue - minutes * 60;
+        seconds = parseInt( seconds );
+        if( seconds < 10 ){
+            seconds = '0' + seconds.toString();
+        }
+
+
+
+        return minutes + ':' + seconds;
       }
   });
 

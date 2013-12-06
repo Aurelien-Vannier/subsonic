@@ -1,0 +1,31 @@
+h2, h3 {
+	margin: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.25em;
+}
+
+#menu-view.pure-menu .pure-menu-heading {
+	padding: 0;
+}
+
+li.title-letter{
+	width: 100%
+}
+
+#music-artists-tile-collection-view #music-list-artist{
+	list-style-type: none;
+	padding: 0;
+}
+
+#artist-info-view img{
+	margin: 0 1em;
+	height: 120px;
+}
+
+#music-artist {
+	min-height: 160px;
+}
+
+.no-puce {
+	list-style-type:none;
+}

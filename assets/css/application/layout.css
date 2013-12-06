@@ -6,14 +6,47 @@
 	height: 100%;
 }
 
-html{
-  height: 100%;
-}
-body, #main-container,
-#application-container{
-  min-height: 100%;
+.heigth-80p {
+	height: 80%;
 }
 
-#music-categorie{
+.heigth-20p {
+	height: 20%;
+}
+
+html{
+  overflow: hidden;
+}
+
+/*body, #main-container {
+	min-height: 100%;
+}*/
+
+#main-container {
+	margin-top: 110px;
+}
+
+#menu-container {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+
+.right-border {
 	border-right: 1px solid #C9C9C9;
 }
+
+.bottom-border {
+	border-bottom: 1px solid #C9C9C9;
+}
+
+.scroll-y {
+	overflow-y: scroll;
+}
+
+.inline {
+	display: inline-block;
+}
+
+
+

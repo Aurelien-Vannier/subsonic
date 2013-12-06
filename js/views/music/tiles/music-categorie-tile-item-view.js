@@ -10,8 +10,7 @@ define(['views/base/view',
 		render: function(){
 			View.prototype.render.apply(this,arguments);
 
-			// listen DOM event
-			this.$el.attr('id', this.model.get('id') );
+			this.$el.attr('value', this.model.get('id') );
 		},
 
 		getTemplateFunction: function() {
